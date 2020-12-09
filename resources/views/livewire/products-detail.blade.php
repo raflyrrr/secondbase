@@ -48,7 +48,7 @@
                             <tr>
                                 <td>Batch :</td>
                                 <td>
-                                    <!-- <img src=" {{url('assets/batch')}}/{{ $product->category->gambar }} " class="img-fluid" width="150"> -->
+                                    <img src=" {{url('assets/batch')}}/{{ $product->category->gambar }} " class="img-fluid" width="150">
                                 </td>
                             </tr>
                             <tr>
