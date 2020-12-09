@@ -1,0 +1,53 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+.banner img{
+    width : 100%;
+    border-radius: 15px;
+}
+.pilih-batch img{
+    max-height: 100px;
+}
+.pilih-batch .card{
+    border-radius: 15px;
+    max-height: 170px;
+}
+.sold-fast img{
+    max-height: 250px;
+}
+.sold-fast .card{
+    border-radius: 10px;
+    
+}
+.breadcrumb{
+    background-color: transparent;
+    padding: 0;
+}
+.breadcrumb .active{
+    font-weight: bold;
+    color: black;
+}
+.btn-dark{
+    border-radius: 10px;
+}
+
+.gambar-product{
+    background-color: #f1f1f1;
+    border-width: 0;
+    border-radius: 15px;
+}
+
+.navbar{
+    
+
+    
+}
+
+@media only screen and (max-width: 480px){
+    .gambar-product {
+        margin-bottom: 15px;
+    }
+    
+}    
