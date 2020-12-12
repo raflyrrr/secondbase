@@ -37,7 +37,7 @@
                         <table class="table" style="border-top :hidden">
                             <tr>
                                 <td>Jumlah :</td>
-                                <td><input id="jumlah_pesanan" type="number" class="form-control @error('jumlah_pesanan') is-invalid @enderror" wire:model="jumlah_pesanan" value="{{ old('jumlah_pesanan') }}"autofocus>
+                                <td><input id="jumlah_pesanan" type="number" class="form-control @error('jumlah_pesanan') is-invalid @enderror" wire:model="jumlah_pesanan" value="{{ old('jumlah_pesanan') }}">
 
                                     @error('jumlah_pesanan')
                                     <span class="invalid-feedback" role="alert">
